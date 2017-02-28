@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AF288101E65188C00501379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2880F1E65188C00501379 /* main.m */; };
-		4AF288131E65188C00501379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288121E65188C00501379 /* AppDelegate.m */; };
-		4AF288161E65188C00501379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288151E65188C00501379 /* ViewController.m */; };
-		4AF288191E65188C00501379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288171E65188C00501379 /* Main.storyboard */; };
-		4AF2881B1E65188C00501379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF2881A1E65188C00501379 /* Assets.xcassets */; };
-		4AF2881E1E65188C00501379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF2881C1E65188C00501379 /* LaunchScreen.storyboard */; };
 		4AF288291E65188C00501379 /* GCD___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288281E65188C00501379 /* GCD___Tests.m */; };
-		4AF288341E65188C00501379 /* GCD___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288331E65188C00501379 /* GCD___UITests.m */; };
-		4AF288471E651D6000501379 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288421E651D6000501379 /* AFURLConnectionOperation.m */; };
-		4AF288481E651D6000501379 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288441E651D6000501379 /* AFHTTPRequestOperation.m */; };
-		4AF288491E651D6000501379 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288461E651D6000501379 /* AFHTTPRequestOperationManager.m */; };
+		4AF288791E655BFF00501379 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288691E655BFF00501379 /* AFHTTPRequestOperation.m */; };
+		4AF2887A1E655BFF00501379 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2886B1E655BFF00501379 /* AFHTTPRequestOperationManager.m */; };
+		4AF2887B1E655BFF00501379 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2886D1E655BFF00501379 /* AFURLConnectionOperation.m */; };
+		4AF2887C1E655BFF00501379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2886F1E655BFF00501379 /* AppDelegate.m */; };
+		4AF2887D1E655BFF00501379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288701E655BFF00501379 /* Assets.xcassets */; };
+		4AF2887E1E655BFF00501379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288711E655BFF00501379 /* LaunchScreen.storyboard */; };
+		4AF2887F1E655BFF00501379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288731E655BFF00501379 /* Main.storyboard */; };
+		4AF288801E655BFF00501379 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288751E655BFF00501379 /* Info.plist */; };
+		4AF288811E655BFF00501379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288761E655BFF00501379 /* main.m */; };
+		4AF288821E655BFF00501379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288781E655BFF00501379 /* ViewController.m */; };
 		CAB1B56271FA3ECC29BFF429 /* libPods-GCD队列组.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD71CB42A2DEA0D987D3BBCB /* libPods-GCD队列组.a */; };
 /* End PBXBuildFile section */
 
@@ -41,27 +41,25 @@
 /* Begin PBXFileReference section */
 		42E91E02AD79502E6CA4A5E3 /* Pods-GCD队列组.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCD队列组.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCD队列组/Pods-GCD队列组.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF2880B1E65188C00501379 /* GCD队列组.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD队列组.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF2880F1E65188C00501379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4AF288111E65188C00501379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4AF288121E65188C00501379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4AF288141E65188C00501379 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4AF288151E65188C00501379 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4AF288181E65188C00501379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AF2881A1E65188C00501379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AF2881D1E65188C00501379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4AF2881F1E65188C00501379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF288241E65188C00501379 /* GCD队列组Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCD队列组Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF288281E65188C00501379 /* GCD___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCD___Tests.m"; sourceTree = "<group>"; };
 		4AF2882A1E65188C00501379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF2882F1E65188C00501379 /* GCD队列组UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCD队列组UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF288331E65188C00501379 /* GCD___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GCD___UITests.m"; sourceTree = "<group>"; };
-		4AF288351E65188C00501379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AF288411E651D6000501379 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		4AF288421E651D6000501379 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		4AF288431E651D6000501379 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		4AF288441E651D6000501379 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		4AF288451E651D6000501379 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		4AF288461E651D6000501379 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4AF288681E655BFF00501379 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4AF288691E655BFF00501379 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4AF2886A1E655BFF00501379 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4AF2886B1E655BFF00501379 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4AF2886C1E655BFF00501379 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4AF2886D1E655BFF00501379 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4AF2886E1E655BFF00501379 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AF2886F1E655BFF00501379 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AF288701E655BFF00501379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF288721E655BFF00501379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF288741E655BFF00501379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF288751E655BFF00501379 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF288761E655BFF00501379 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AF288771E655BFF00501379 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AF288781E655BFF00501379 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D2214C5F7A5AA55245B205FD /* Pods-GCD队列组.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCD队列组.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCD队列组/Pods-GCD队列组.release.xcconfig"; sourceTree = "<group>"; };
 		DD71CB42A2DEA0D987D3BBCB /* libPods-GCD队列组.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCD队列组.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,9 +93,8 @@
 		4AF288021E65188C00501379 = {
 			isa = PBXGroup;
 			children = (
-				4AF2880D1E65188C00501379 /* GCD队列组 */,
+				4AF288671E655BFF00501379 /* GCD队列组 */,
 				4AF288271E65188C00501379 /* GCD队列组Tests */,
-				4AF288321E65188C00501379 /* GCD队列组UITests */,
 				4AF2880C1E65188C00501379 /* Products */,
 				99C5E8AA3F9F98D46C212E32 /* Pods */,
 				F38203924ADF747C87F85567 /* Frameworks */,
@@ -114,36 +111,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AF2880D1E65188C00501379 /* GCD队列组 */ = {
-			isa = PBXGroup;
-			children = (
-				4AF288111E65188C00501379 /* AppDelegate.h */,
-				4AF288121E65188C00501379 /* AppDelegate.m */,
-				4AF288141E65188C00501379 /* ViewController.h */,
-				4AF288151E65188C00501379 /* ViewController.m */,
-				4AF288171E65188C00501379 /* Main.storyboard */,
-				4AF2881A1E65188C00501379 /* Assets.xcassets */,
-				4AF2881C1E65188C00501379 /* LaunchScreen.storyboard */,
-				4AF2881F1E65188C00501379 /* Info.plist */,
-				4AF2880E1E65188C00501379 /* Supporting Files */,
-			);
-			path = "GCD队列组";
-			sourceTree = "<group>";
-		};
-		4AF2880E1E65188C00501379 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4AF288411E651D6000501379 /* AFURLConnectionOperation.h */,
-				4AF288421E651D6000501379 /* AFURLConnectionOperation.m */,
-				4AF288431E651D6000501379 /* AFHTTPRequestOperation.h */,
-				4AF288441E651D6000501379 /* AFHTTPRequestOperation.m */,
-				4AF288451E651D6000501379 /* AFHTTPRequestOperationManager.h */,
-				4AF288461E651D6000501379 /* AFHTTPRequestOperationManager.m */,
-				4AF2880F1E65188C00501379 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		4AF288271E65188C00501379 /* GCD队列组Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,13 +120,26 @@
 			path = "GCD队列组Tests";
 			sourceTree = "<group>";
 		};
-		4AF288321E65188C00501379 /* GCD队列组UITests */ = {
+		4AF288671E655BFF00501379 /* GCD队列组 */ = {
 			isa = PBXGroup;
 			children = (
-				4AF288331E65188C00501379 /* GCD___UITests.m */,
-				4AF288351E65188C00501379 /* Info.plist */,
+				4AF288681E655BFF00501379 /* AFHTTPRequestOperation.h */,
+				4AF288691E655BFF00501379 /* AFHTTPRequestOperation.m */,
+				4AF2886A1E655BFF00501379 /* AFHTTPRequestOperationManager.h */,
+				4AF2886B1E655BFF00501379 /* AFHTTPRequestOperationManager.m */,
+				4AF2886C1E655BFF00501379 /* AFURLConnectionOperation.h */,
+				4AF2886D1E655BFF00501379 /* AFURLConnectionOperation.m */,
+				4AF2886E1E655BFF00501379 /* AppDelegate.h */,
+				4AF2886F1E655BFF00501379 /* AppDelegate.m */,
+				4AF288701E655BFF00501379 /* Assets.xcassets */,
+				4AF288711E655BFF00501379 /* LaunchScreen.storyboard */,
+				4AF288731E655BFF00501379 /* Main.storyboard */,
+				4AF288751E655BFF00501379 /* Info.plist */,
+				4AF288761E655BFF00501379 /* main.m */,
+				4AF288771E655BFF00501379 /* ViewController.h */,
+				4AF288781E655BFF00501379 /* ViewController.m */,
 			);
-			path = "GCD队列组UITests";
+			path = "GCD队列组";
 			sourceTree = "<group>";
 		};
 		99C5E8AA3F9F98D46C212E32 /* Pods */ = {
@@ -291,9 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF2881E1E65188C00501379 /* LaunchScreen.storyboard in Resources */,
-				4AF2881B1E65188C00501379 /* Assets.xcassets in Resources */,
-				4AF288191E65188C00501379 /* Main.storyboard in Resources */,
+				4AF288801E655BFF00501379 /* Info.plist in Resources */,
+				4AF2887F1E655BFF00501379 /* Main.storyboard in Resources */,
+				4AF2887D1E655BFF00501379 /* Assets.xcassets in Resources */,
+				4AF2887E1E655BFF00501379 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF288471E651D6000501379 /* AFURLConnectionOperation.m in Sources */,
-				4AF288161E65188C00501379 /* ViewController.m in Sources */,
-				4AF288491E651D6000501379 /* AFHTTPRequestOperationManager.m in Sources */,
-				4AF288481E651D6000501379 /* AFHTTPRequestOperation.m in Sources */,
-				4AF288131E65188C00501379 /* AppDelegate.m in Sources */,
-				4AF288101E65188C00501379 /* main.m in Sources */,
+				4AF288821E655BFF00501379 /* ViewController.m in Sources */,
+				4AF288811E655BFF00501379 /* main.m in Sources */,
+				4AF2887C1E655BFF00501379 /* AppDelegate.m in Sources */,
+				4AF2887A1E655BFF00501379 /* AFHTTPRequestOperationManager.m in Sources */,
+				4AF2887B1E655BFF00501379 /* AFURLConnectionOperation.m in Sources */,
+				4AF288791E655BFF00501379 /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF288341E65188C00501379 /* GCD___UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,20 +387,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AF288171E65188C00501379 /* Main.storyboard */ = {
+		4AF288711E655BFF00501379 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AF288181E65188C00501379 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4AF2881C1E65188C00501379 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AF2881D1E65188C00501379 /* Base */,
+				4AF288721E655BFF00501379 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF288731E655BFF00501379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF288741E655BFF00501379 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
