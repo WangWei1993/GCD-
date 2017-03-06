@@ -18,6 +18,9 @@
 		4AF288801E655BFF00501379 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF288751E655BFF00501379 /* Info.plist */; };
 		4AF288811E655BFF00501379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288761E655BFF00501379 /* main.m */; };
 		4AF288821E655BFF00501379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288781E655BFF00501379 /* ViewController.m */; };
+		4AF288881E657F1400501379 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF288871E657F1400501379 /* AViewController.m */; };
+		4AF2888B1E657F2200501379 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2888A1E657F2200501379 /* BViewController.m */; };
+		4AF2888E1E657F2C00501379 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2888D1E657F2C00501379 /* CViewController.m */; };
 		CAB1B56271FA3ECC29BFF429 /* libPods-GCD队列组.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD71CB42A2DEA0D987D3BBCB /* libPods-GCD队列组.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,12 @@
 		4AF288761E655BFF00501379 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AF288771E655BFF00501379 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4AF288781E655BFF00501379 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AF288861E657F1400501379 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		4AF288871E657F1400501379 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		4AF288891E657F2200501379 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		4AF2888A1E657F2200501379 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		4AF2888C1E657F2C00501379 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		4AF2888D1E657F2C00501379 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		D2214C5F7A5AA55245B205FD /* Pods-GCD队列组.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCD队列组.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCD队列组/Pods-GCD队列组.release.xcconfig"; sourceTree = "<group>"; };
 		DD71CB42A2DEA0D987D3BBCB /* libPods-GCD队列组.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCD队列组.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,6 +147,12 @@
 				4AF288761E655BFF00501379 /* main.m */,
 				4AF288771E655BFF00501379 /* ViewController.h */,
 				4AF288781E655BFF00501379 /* ViewController.m */,
+				4AF288861E657F1400501379 /* AViewController.h */,
+				4AF288871E657F1400501379 /* AViewController.m */,
+				4AF288891E657F2200501379 /* BViewController.h */,
+				4AF2888C1E657F2C00501379 /* CViewController.h */,
+				4AF2888D1E657F2C00501379 /* CViewController.m */,
+				4AF2888A1E657F2200501379 /* BViewController.m */,
 			);
 			path = "GCD队列组";
 			sourceTree = "<group>";
@@ -348,9 +363,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF288821E655BFF00501379 /* ViewController.m in Sources */,
+				4AF288881E657F1400501379 /* AViewController.m in Sources */,
+				4AF2888E1E657F2C00501379 /* CViewController.m in Sources */,
 				4AF288811E655BFF00501379 /* main.m in Sources */,
 				4AF2887C1E655BFF00501379 /* AppDelegate.m in Sources */,
 				4AF2887A1E655BFF00501379 /* AFHTTPRequestOperationManager.m in Sources */,
+				4AF2888B1E657F2200501379 /* BViewController.m in Sources */,
 				4AF2887B1E655BFF00501379 /* AFURLConnectionOperation.m in Sources */,
 				4AF288791E655BFF00501379 /* AFHTTPRequestOperation.m in Sources */,
 			);

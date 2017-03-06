@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "AFHTTPSessionManager.h"
+#import "AViewController.h"
+#import "BViewController.h"
+#import "CViewController.h"
 
 typedef void(^myBlock)(NSDictionary *dic);
 
@@ -22,6 +25,14 @@ typedef void(^myBlock)(NSDictionary *dic);
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    AViewController *vc1 = [[AViewController alloc] init];
+    BViewController *vc2 = [[BViewController alloc] init];
+    CViewController *vc3 = [[CViewController alloc] init];
+    
+    [self addChildViewController:vc1];
+    [self addChildViewController:vc2];
+    [self addChildViewController:vc3];
     
     // 队列组和信号量
     [self test1];
